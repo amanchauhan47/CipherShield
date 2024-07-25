@@ -21,6 +21,7 @@ CipherShield is a Python-based project consisting of programs for symmetric key 
 
 1. **Key Generation Program**
    - Execute `CipherShield_KeyGenerator.py`.
+   
    ![Key Generation](images/key_generation.png)
 
    - The generated symmetric key will be saved in `symmetric_key.txt`.
