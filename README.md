@@ -1,68 +1,74 @@
 # CipherShield
 
-CipherShield is a project consisting of three programs for symmetric key encryption and decryption of messages.
+CipherShield is a Python-based project consisting of programs for symmetric key encryption and decryption.
 
-<h2> Programs Overview </h2>
-Key Generation Program
+## Programs Overview
 
-Generates a symmetric key each time it runs.
-Saves the generated key into a file named symmetric_keys.txt.
-Encryption Program
+* **Key Generation Program**
+  - Generates a symmetric key each time it runs.
+  - Saves the generated key into a file named `symmetric_keys.txt`.
 
-Takes a plaintext message and a symmetric key as inputs.
-Encrypts the message using the provided key.
-Outputs the encrypted ciphertext.
-Decryption Program
+* **Encryption Program**
+  - Takes a plaintext message and a symmetric key as inputs.
+  - Encrypts the message using the provided key.
+  - Outputs the encrypted ciphertext.
 
-Takes an encrypted ciphertext and the corresponding symmetric key as inputs.
-Decrypts the ciphertext back to its original plaintext form.
-Usage
-Key Generation Program
+* **Decryption Program**
+  - Takes an encrypted ciphertext and the corresponding symmetric key as inputs.
+  - Decrypts the ciphertext back to its original plaintext form.
 
-Execute key_generation.py.
-The generated symmetric key will be saved in symmetric_keys.txt.
-Encryption Program
+## Usage
 
-Run encryption.py.
-Enter the plaintext message and provide the symmetric key when prompted.
-The encrypted ciphertext will be displayed.
-Decryption Program
+1. **Key Generation Program**
+   - Execute `key_generation.py`.
+   - The generated symmetric key will be saved in `symmetric_keys.txt`.
 
-Execute decryption.py.
-Input the encrypted ciphertext and the corresponding symmetric key.
-The decrypted plaintext message will be shown.
-Setup
-Requirements
+2. **Encryption Program**
+   - Run `encryption.py`.
+   - Enter the plaintext message and provide the symmetric key when prompted.
+   - The encrypted ciphertext will be displayed.
 
-Python 3.x
-Installation
+3. **Decryption Program**
+   - Execute `decryption.py`.
+   - Input the encrypted ciphertext and the corresponding symmetric key.
+   - The decrypted plaintext message will be shown.
 
-Clone the repository:
-bash
-Copy code
-git clone https://github.com/your_username/ciphershield.git
-Running the Programs
+## Setup
 
-Navigate to the project directory:
-bash
-Copy code
-cd ciphershield
-Follow the usage instructions for each program as described above.
-Screenshots
-Add screenshots or diagrams below to illustrate your project. You can replace the placeholders with actual image filenames.
+1. **Requirements**
+   - Python 3.x
 
-Encryption Process
+2. **Installation**
+   - Clone the repository:
+     ```
+     git clone https://github.com/your_username/ciphershield.git
+     ```
 
-Decryption Process
+3. **Running the Programs**
+   - Navigate to the project directory:
+     ```
+     cd ciphershield
+     ```
+   - Follow the usage instructions for each program as described above.
 
-Future Enhancements
-Implement error handling and validation for key input.
-Add support for different encryption algorithms.
-Improve user interface and add graphical components.
-Contributing
+## Screenshots
+
+- **Encryption Process**
+  ![Encryption Process](images/encryption_process.png)
+
+- **Decryption Process**
+  ![Decryption Process](images/decryption_process.png)
+
+## Future Enhancements
+- Implement error handling and validation for key input.
+- Add support for different encryption algorithms.
+- Improve user interface and add graphical components.
+
+## Contributing
 Contributions are welcome! If you'd like to improve this project, please fork the repository and submit a pull request.
 
-Authors
-Your Name
-License
+## Authors
+- Aman Chauhan
+
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
