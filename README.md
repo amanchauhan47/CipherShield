@@ -6,7 +6,7 @@ CipherShield is a Python-based project consisting of programs for symmetric key 
 
 * **Key Generation Program**
   - Generates a symmetric key each time it runs.
-  - Saves the generated key into a file named `symmetric_keys.txt`.
+  - Saves the generated key into a file named `symmetric_key.txt`.
 
 * **Encryption Program**
   - Takes a plaintext message and a symmetric key as inputs.
@@ -20,20 +20,22 @@ CipherShield is a Python-based project consisting of programs for symmetric key 
 ## Usage
 
 1. **Key Generation Program**
-   - Execute `key_generation.py`.
-   - The generated symmetric key will be saved in `symmetric_keys.txt`.
-  
-   ![Key Generation](images/encryption_process.png)
+   - Execute `CipherShield_KeyGenerator.py`.
+   ![Key Generation](images/key_generation.png)
+
+   - The generated symmetric key will be saved in `symmetric_key.txt`.
+       
+   ![Key Saved](images/key_saved.png)
 
 2. **Encryption Program**
-   - Run `encryption.py`.
+   - Run `CipherShield_Encryption.py`.
    - Enter the plaintext message and provide the symmetric key when prompted.
    - The encrypted ciphertext will be displayed.
 
    ![Encryption Process](images/encryption_process.png)
 
 3. **Decryption Program**
-   - Execute `decryption.py`.
+   - Execute `CipherShield_Decryption.py`.
    - Input the encrypted ciphertext and the corresponding symmetric key.
    - The decrypted plaintext message will be shown.
 
@@ -47,13 +49,17 @@ CipherShield is a Python-based project consisting of programs for symmetric key 
 2. **Installation**
    - Clone the repository:
      ```
-     git clone https://github.com/your_username/ciphershield.git
+     git clone https://github.com/amanchauhan47/CipherShield.git
      ```
 
 3. **Running the Programs**
    - Navigate to the project directory:
      ```
      cd ciphershield
+     ```
+   - Make the programs executable (if needed):
+     ```
+     chmod +x CipherShield_KeyGenerator.py CipherShield_Encryption.py CipherShield_Decryption.py
      ```
    - Follow the usage instructions for each program as described above.
 
