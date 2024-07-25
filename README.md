@@ -56,7 +56,7 @@ CipherShield is a Python-based project consisting of programs for symmetric key 
 3. **Running the Programs**
    - Navigate to the project directory:
      ```
-     cd ciphershield
+     cd CipherShield
      ```
    - Make the programs executable (if needed):
      ```
