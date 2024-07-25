@@ -66,7 +66,7 @@ CipherShield is a Python-based project consisting of programs for symmetric key 
 Contributions are welcome! If you'd like to improve this project, please fork the repository and submit a pull request.
 
 ## Authors
-- Your Name
+- Aman Chauhan
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
