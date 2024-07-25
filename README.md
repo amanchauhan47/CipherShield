@@ -1,8 +1,8 @@
 # CipherShield
-CipherShield
+
 CipherShield is a project consisting of three programs for symmetric key encryption and decryption of messages.
 
-Programs Overview
+<h2> Programs Overview </h2>
 Key Generation Program
 
 Generates a symmetric key each time it runs.
