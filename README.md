@@ -8,26 +8,22 @@ CipherShield is a Python-based project consisting of programs for symmetric key 
   - Generates a symmetric key each time it runs.
   - Saves the generated key into a file named `symmetric_keys.txt`.
 
-  ![Key Generation](images/key_generation.png)
-
 * **Encryption Program**
   - Takes a plaintext message and a symmetric key as inputs.
   - Encrypts the message using the provided key.
   - Outputs the encrypted ciphertext.
 
-  ![Encryption Process](images/encryption_process.png)
-
 * **Decryption Program**
   - Takes an encrypted ciphertext and the corresponding symmetric key as inputs.
   - Decrypts the ciphertext back to its original plaintext form.
-
-  ![Decryption Process](images/decryption_process.png)
 
 ## Usage
 
 1. **Key Generation Program**
    - Execute `key_generation.py`.
    - The generated symmetric key will be saved in `symmetric_keys.txt`.
+  
+   ![Key Generation](images/encryption_process.png)
 
 2. **Encryption Program**
    - Run `encryption.py`.
